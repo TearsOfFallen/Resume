@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(246, 242, 0);
+
+}
+.grid-container_columns{
+	background-color: rgb(149, 0, 204);
+}
+.grid-item{
+	background-color: rgb(85, 132, 0);
+	border: 2px solid red;
+}
+.avatar{
+	border: 2px solid red;
+}
+
+.table{
+	border: 2px solid red;
+	background-color: rgb(0, 47, 86);
+}
+.button{
+	background-color: rgb(34, 0, 126);
+}
+.text{
+	background-color: rgb(246, 0, 212);
+}
