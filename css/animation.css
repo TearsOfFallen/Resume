@@ -1,0 +1,13 @@
+*{
+	position: relative;
+	animation-name: apearance;
+	animation-duration: 4s;
+	animation-delay: -2s;
+
+
+}
+@keyframes apearance{
+	0% {top: 0px;opacity: 100;}
+	50% {top: 100px; opacity: 0;}
+	100%{top: 0px;opacity: 100;}
+}
