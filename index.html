@@ -4,8 +4,70 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" id="sheet">
+	<link rel="stylesheet" type="text/css" href="css/light-theme.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/dark-theme.css">-->
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<script src="js/js.js"></script>
 </head>
 <body>
-
+	<div class="grid-container_columns">
+		<div class="grid-container">
+			<div class="grid-item">
+				<img class="avatar" src="img/avatar.jpg" alt="avatar" width="200" height="200">
+				<br>
+				<h1>Марков Данила</h1><br>
+				<p><i>Программист<br>
+				Художник<br>
+				Безработный<br> 
+				</i></p>
+				<input class="button" type="button" name="theme" onclick="chageCSS()" value="change to dark theme">
+			</div>
+			<div class="grid-item">
+				<table class="table">
+					<tr>
+						<td colspan="3"><input class="text" type="text" id="result" value=""></td>
+						<td><input class="button" type="button" name="1" onclick="clr()" value="C"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" name="1" onclick="elem('1')" value="1"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('2')" value="2"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('3')" value="3"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('/')" value="/"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" name="1" onclick="elem('4')" value="4"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('5')" value="5"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('6')" value="6"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('*')" value="*"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" name="1" onclick="elem('7')" value="7"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('8')" value="8"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('9')" value="9"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('-')" value="-"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" name="1" onclick="elem('0')" value="0"></td>
+						<td><input class="button" type="button" name="1" onclick="elem('.')" value="."></td>
+						<td><input class="button" type="button" name="1" onclick="elem('+')" value="+"></td>
+						<td><input class="button" type="button" name="1" onclick="solve()" value="="></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="grid-container">
+			<div class="grid-item"><h3>Навыки</h3>
+				<p>Html<br>CSS<br> js <br>java</p>
+			</div>
+			<div class="grid-item"><h3>Увлечения</h3><p>Игры...</p></div>
+			<div class="grid-item"><h3>Контактная информация</h3>
+				<a href="https://twitter.com/SlaveAndSystem"><img src="img/twitter.png" alt="@SlaveAndSystem" width="50px" height="50px"> </a>
+				<a href="https://www.instagram.com/slaveandsystem/"><img src="img/insta.png" alt="@SlaveAndSystem" width="50px" height="50px"> </a>
+				<a href="https://github.com/TearsOfFallen"><img src="img/Github.png" alt="TearsOfFallen" width="50px" height="50px"> </a>
+				<p>sarcone612@gmail.com</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
